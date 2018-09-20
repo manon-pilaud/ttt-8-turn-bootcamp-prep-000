@@ -38,7 +38,6 @@ def turn (board)
   puts 'Please enter 1-9:'
   while true 
   user_input = gets.chomp
-  if valid_move?
-    move(input, current_player)
-end
+  if valid_move?(board,index)
+    display_board (board)
    
