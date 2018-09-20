@@ -39,6 +39,6 @@ def turn (board)
   while true 
   user_input = gets.chomp
   if valid_move?
-    
+    move(input, current_player)
 end
    
