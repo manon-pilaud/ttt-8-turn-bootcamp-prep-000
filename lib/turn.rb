@@ -37,11 +37,6 @@ end
 def turn (board)
   puts 'Please enter 1-9:'
   user_input = gets.chomp
-  if valid_move?(board,index)
-    index = 
-    move (board, input_to_index , value = 'X')
-    display_board (board)
-  else
-    puts 'invalid move'
+  input_to_index
 end
    
