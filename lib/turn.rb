@@ -39,5 +39,10 @@ def turn (board)
   while true 
   user_input = gets.chomp
   if valid_move?(board,index)
+    move (board, input_to_index , value = 'X')
     display_board (board)
+  else
+    puts 'invalid move'
+  end
+end
    
