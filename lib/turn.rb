@@ -33,4 +33,6 @@ end
 def move (board, input_to_index , value = 'X')
   board[input_to_index] = value
 end
+
+def turn ()
    
